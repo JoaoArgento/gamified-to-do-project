@@ -1,9 +1,15 @@
 import "./../styles/globals.css";
-
+import TaskForm from "components/TaskForm";
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold">
-      Ta na hora de finalizar UM PROJETO JOAO
-    </h1>
+    <div>
+      <h1 className="text-3xl font-bold">
+        Gamified to-do project  
+      </h1>
+      <TaskForm/>
+
+
+    </div>
+  
   );
 }
